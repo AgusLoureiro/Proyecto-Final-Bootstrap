@@ -3,6 +3,12 @@
 @import "footer";
 @import "contacto1";
 @import "galeria1";
-@import "index";
 @import "ubicacion1";
 @import "main";
+body{
+    background-color: $colorDeFondo;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}

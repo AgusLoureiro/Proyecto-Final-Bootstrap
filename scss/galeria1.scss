@@ -1,9 +1,13 @@
-.navbar .navbar-nav .nav-link:hover{
-    background-color: $colorDanger;
-    color: $colorBlanco;
+.card:hover{
+box-shadow: -1px 8px 0px -1px $colorDanger;
+-webkit-box-shadow: -1px 8px 0px -1px $colorDanger;
+-moz-box-shadow: -1px 8px 0px -1px $colorDanger;
+border-radius: 61px 61px 61px 61px;
+-webkit-border-radius: 61px 61px 61px 61px;
+-moz-border-radius: 61px 61px 61px 61px;
+transform: translateY(-15px);
 }
-.tittle{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
+.card{
+    background-color: $colorDeFondo;
 }
