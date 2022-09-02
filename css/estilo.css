@@ -1,0 +1,8 @@
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #dc3545;
+  color: #FFFFFF; }
+
+footer .text-center .text-white:hover {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.tittle{text-align: center;}
