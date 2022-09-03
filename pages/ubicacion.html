@@ -12,12 +12,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- mi CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
-    <title>Document</title>
+    <title>Clancys</title>
 </head>
 <body>
 <header>
-    <!-- LOGO + NAV -->
-    <div class="row">
         <div class="col-12 col-lg-12">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -46,9 +44,58 @@
             </nav>
         </div>
     </div>
-    </div>
 </header>
-    <footer class="bg-danger text-center text-white">
+<main>
+    <h1 class="h1Ubicacion m-3">Locacion de nuestro local</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Donde queda?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Longchamps, Almirante Brown. Buenos Aires Argentina</strong> La dirección del lugar es Bolivar 1395 Oficina 6. Es en un segundo piso.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Cómo puedo llegar hasta ahí?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>En transporte público</strong> Línea ROCA, ramal Alejandro Korn-Constitucion, en colectivo las líneas que paran en la estación son 501, 506, 79.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Link de google
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Para las personas que se muevan en auto</strong> El link del recorrido hasta el local, desde su ubicación si la tienen activada en el celular. <a href="https://www.google.com.ar/maps/place/Sim%C3%B3n+Bol%C3%ADvar+1395,+B1854BWA+Longchamps,+Provincia+de+Buenos+Aires/@-34.8595341,-58.3889611,17z/data=!4m5!3m4!1s0x95bcd52705542655:0x78dc5397edd9e0fb!8m2!3d-34.8595385!4d-58.3867724" target="_blank">Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="d-flex justify-content-center w-100 m-5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3273.8683915860793!2d-58.3889611!3d-34.8595341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd52705542655%3A0x78dc5397edd9e0fb!2sSim%C3%B3n%20Bol%C3%ADvar%201395%2C%20B1854BWA%20Longchamps%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662231839276!5m2!1ses-419!2sar" width="600" height="450" style="box-shadow: 5px 5px 10px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
@@ -69,7 +116,7 @@
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2022 Copyright:
-            <a class="text-white" href="https://mdbootstrap.com/">Agustin Loureiro</a>
+            <a class="text-white" href="#">Agustin Loureiro</a>
         </div>
         <!-- Copyright -->
     </footer>

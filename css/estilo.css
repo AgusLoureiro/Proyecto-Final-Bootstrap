@@ -5,10 +5,22 @@
 footer .text-center .text-white:hover {
   background-color: rgba(0, 0, 0, 0.2); }
 
+.formContact {
+  border: solid;
+  box-shadow: -1px -1px 31px 25px;
+  -webkit-box-shadow: -1px -1px 31px 25px;
+  -moz-box-shadow: -1px -1px 31px 25px; }
+
+.pContacto {
+  font-size: 2rem; }
+
+.bgImagen {
+  background-image: url("https://i.blogs.es/f47e4d/horizontal_500/450_1000.jpg"); }
+
 .card:hover {
-  box-shadow: -1px 8px 0px -1px #dc3545;
-  -webkit-box-shadow: -1px 8px 0px -1px #dc3545;
-  -moz-box-shadow: -1px 8px 0px -1px #dc3545;
+  box-shadow: -1px 8px 0px -1px black;
+  -webkit-box-shadow: -1px 8px 0px -1px black;
+  -moz-box-shadow: -1px 8px 0px -1px black;
   border-radius: 61px 61px 61px 61px;
   -webkit-border-radius: 61px 61px 61px 61px;
   -moz-border-radius: 61px 61px 61px 61px;
@@ -20,9 +32,23 @@ footer .text-center .text-white:hover {
 .tittle {
   text-align: center; }
 
+.formContact {
+  border: solid;
+  box-shadow: -1px -1px 31px 25px;
+  -webkit-box-shadow: -1px -1px 31px 25px;
+  -moz-box-shadow: -1px -1px 31px 25px; }
+
+.navbarVertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+
 body {
   background-color: #d9caba; }
 
 h1 {
   text-align: center;
+  font-size: 2rem; }
+
+.pContacto {
   font-size: 2rem; }

@@ -1,10 +1,10 @@
-@import "colores";
-@import "header";
-@import "footer";
-@import "contacto1";
-@import "galeria1";
-@import "ubicacion1";
-@import "main";
+@import "_colores";
+@import "_header";
+@import "_footer";
+@import "_contacto1";
+@import "_galeria1";
+@import "_ubicacion1";
+@import "_main";
 body{
     background-color: $colorDeFondo;
 }
@@ -12,3 +12,8 @@ h1{
     text-align: center;
     font-size: 2rem;
 }
+.pContacto{
+    font-size: 2rem;
+}
+
+
