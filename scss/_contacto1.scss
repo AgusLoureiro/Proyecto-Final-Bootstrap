@@ -7,6 +7,14 @@ box-shadow: -1px -1px 31px 25px ;
     font-size: 2rem;
 }
 
-.bgImagen{
-    background-image: url("https://i.blogs.es/f47e4d/horizontal_500/450_1000.jpg");
+.bgImagen{ 
+    background-repeat: no-repeat;
+    background-image: url(../assets/montefuji.jpg)
+}
+
+div{
+    label{
+        font-size: 3rem;
+        background-color: black;
+    }
 }
