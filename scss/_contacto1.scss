@@ -7,14 +7,14 @@ box-shadow: -1px -1px 31px 25px ;
     font-size: 2rem;
 }
 
-.bgImagen{ 
-    background-repeat: no-repeat;
-    background-image: url(../assets/montefuji.jpg)
-}
+// .bgImagen{ 
+//     background-repeat: no-repeat;
+//     background-image: url()
+// }
 
 div{
     label{
-        font-size: 3rem;
-        background-color: black;
+    font-size: 3rem;
+    color: $colorCuarto;
     }
 }
