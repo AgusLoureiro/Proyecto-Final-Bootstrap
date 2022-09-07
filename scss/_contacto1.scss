@@ -1,9 +1,11 @@
-.formContact{
-border: solid;
-box-shadow: -1px -1px 31px 25px ;
--webkit-box-shadow: -1px -1px 31px 25px ;
--moz-box-shadow: -1px -1px 31px 25px ;}
-.pContacto{
+.formContact {
+    border: solid;
+    box-shadow: -1px -1px 31px 25px;
+    -webkit-box-shadow: -1px -1px 31px 25px;
+    -moz-box-shadow: -1px -1px 31px 25px;
+}
+
+.pContacto {
     font-size: 2rem;
 }
 
@@ -12,9 +14,17 @@ box-shadow: -1px -1px 31px 25px ;
 //     background-image: url()
 // }
 
-div{
-    label{
-    font-size: 3rem;
-    color: $colorCuarto;
+div {
+    h3 {
+        color: $colorDanger
+    }
+    p {
+        color: $colorDanger
+    }
+}
+div {
+    label {
+        font-size: 2rem;
+        color: $colorCuarto;
     }
 }
