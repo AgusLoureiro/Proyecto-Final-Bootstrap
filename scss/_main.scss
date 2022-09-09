@@ -1,15 +1,43 @@
+body{
+    background-color: $colorDeFondo;
+}
+// header //
+.navbar .navbar-nav .nav-link:hover{
+    background-color: $colorTitulos;
+    color: $colorBlanco;
+}
+
 .tittle{
+    font-size: 3.5rem;
     text-align: center;
 }
 
-.formContact{
-    border: solid;
-    box-shadow: -1px -1px 31px 25px ;
-    -webkit-box-shadow: -1px -1px 31px 25px ;
-    -moz-box-shadow: -1px -1px 31px 25px ;}
-
-// .navbarVertical{
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-// }
+// CONTACTO //
+.pContacto {
+    font-size: 2rem;
+}
+div {
+    h3 {
+        font-size: 3rem;
+        color: $colorCuarto;
+    }
+    p {
+        color: $colorTitulos;
+    }
+}
+div {
+    label {
+        font-size: 2rem;
+        color: $colorCuarto;
+    }
+}
+// Galeria//
+.card{
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    background-color: $colorDeFondo;
+}
+.card-text,.card-title,{
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+// Condicionales //
+body{
+    @if $vistaD == desktop{
+        @media only screen and (min-width:1024px){
+            h1{
+                font-size: 3.5rem;
+            }
+            .card-body{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    @if $vista == mobile {
+        @media only screen and (max-width: 768px){
+            h1{
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
+
+@for $margen from 1 through 10{
+    .m-#{$margen}{
+        margin:10px * $margen; 
+    }
+}
+
+@each $fontType in Arial, Tahoma, Comic{
+    .font-#{$fontType}{
+        font-family: #{$fontType};
+    }
+}

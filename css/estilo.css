@@ -1,3 +1,52 @@
+@media only screen and (min-width: 1024px) {
+  body h1 {
+    font-size: 3.5rem; }
+  body .card-body {
+    font-size: 1.5rem; } }
+
+@media only screen and (max-width: 768px) {
+  body h1 {
+    font-size: 2.5rem; } }
+
+.m-1 {
+  margin: 10px; }
+
+.m-2 {
+  margin: 20px; }
+
+.m-3 {
+  margin: 30px; }
+
+.m-4 {
+  margin: 40px; }
+
+.m-5 {
+  margin: 50px; }
+
+.m-6 {
+  margin: 60px; }
+
+.m-7 {
+  margin: 70px; }
+
+.m-8 {
+  margin: 80px; }
+
+.m-9 {
+  margin: 90px; }
+
+.m-10 {
+  margin: 100px; }
+
+.font-Arial {
+  font-family: Arial; }
+
+.font-Tahoma {
+  font-family: Tahoma; }
+
+.font-Comic {
+  font-family: Comic; }
+
 .navbar .navbar-nav .nav-link:hover {
   background-color: black;
   color: #FFFFFF; }
@@ -5,48 +54,36 @@
 footer .text-center .text-white:hover {
   background-color: rgba(116, 103, 103, 0.603); }
 
-.formContact {
-  border: solid;
-  box-shadow: -1px -1px 31px 25px;
-  -webkit-box-shadow: -1px -1px 31px 25px;
-  -moz-box-shadow: -1px -1px 31px 25px; }
+body {
+  background-color: #d9caba; }
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: black;
+  color: #FFFFFF; }
+
+.tittle {
+  font-size: 3.5rem;
+  text-align: center; }
 
 .pContacto {
   font-size: 2rem; }
 
 div h3 {
-  color: #dc3545; }
+  font-size: 3rem;
+  color: #be8e70; }
 
 div p {
-  color: #dc3545; }
+  color: black; }
 
 div label {
   font-size: 2rem;
   color: #be8e70; }
 
-.card:hover {
-  box-shadow: -1px 8px 0px -1px black;
-  -webkit-box-shadow: -1px 8px 0px -1px black;
-  -moz-box-shadow: -1px 8px 0px -1px black;
-  border-radius: 61px 61px 61px 61px;
-  -webkit-border-radius: 61px 61px 61px 61px;
-  -moz-border-radius: 61px 61px 61px 61px;
-  transform: translateY(-15px); }
-
 .card {
+  border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
   background-color: #d9caba; }
 
-h1 {
+.card-text, .card-title {
   text-align: center; }
-
-.tittle {
-  text-align: center; }
-
-.formContact {
-  border: solid;
-  box-shadow: -1px -1px 31px 25px;
-  -webkit-box-shadow: -1px -1px 31px 25px;
-  -moz-box-shadow: -1px -1px 31px 25px; }
-
-body {
-  background-color: #d9caba; }
