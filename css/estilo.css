@@ -38,15 +38,6 @@
 .m-10 {
   margin: 100px; }
 
-.font-Arial {
-  font-family: Arial; }
-
-.font-Tahoma {
-  font-family: Tahoma; }
-
-.font-Comic {
-  font-family: Comic; }
-
 .navbar .navbar-nav .nav-link:hover {
   background-color: black;
   color: #FFFFFF; }

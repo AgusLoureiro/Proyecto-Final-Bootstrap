@@ -25,8 +25,16 @@ body{
     }
 }
 
-@each $fontType in Arial, Tahoma, Comic{
-    .font-#{$fontType}{
-        font-family: #{$fontType};
-    }
-}
+
+// @each $fontType in Arial, Tahoma, Comic{
+//     .font-#{$fontType}{
+//         font-family: #{$fontType};
+//     }
+// }
+
+$coloresPrincipales:(
+    colorNegro: black,
+    colorBlanco:white,
+    colorAzul: blue,
+    colorMarron: brown
+);
