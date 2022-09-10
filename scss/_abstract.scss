@@ -19,12 +19,32 @@ body{
     }
 }
 
+// BUCLES//
 @for $margen from 1 through 10{
     .m-#{$margen}{
         margin:10px * $margen; 
     }
 }
-
+@for $margen from 1 through 10{
+    .mt-#{$margen}{
+        margin-top:10px * $margen; 
+    }
+}
+@for $margen from 1 through 10{
+    .mr-#{$margen}{
+        margin-top:10px * $margen; 
+    }
+}
+@for $margen from 1 through 10{
+    .mb-#{$margen}{
+        margin-top:10px * $margen; 
+    }
+}
+@for $margen from 1 through 10{
+    .ml-#{$margen}{
+        margin-top:10px * $margen; 
+    }
+}
 
 // @each $fontType in Arial, Tahoma, Comic{
 //     .font-#{$fontType}{
@@ -32,9 +52,35 @@ body{
 //     }
 // }
 
-$coloresPrincipales:(
-    colorNegro: black,
-    colorBlanco:white,
+// MAPS //
+$coloresGaleria:(
+    colorTextoCards:#D9CABA,
+    colorPurpleNavy:#414066,
     colorAzul: blue,
     colorMarron: brown
 );
+
+@each $colorNegro, $black in $coloresGaleria{
+    .btn--#{colorNegro}{
+        background-color: $black;
+
+    }
+}
+
+// extends//
+.card{
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    background-color: $colorDeFondo;
+    color:map-get($coloresGaleria,colorPurpleNavy);
+}
+.card-text,{
+    @extend .card;
+    text-align:center;
+}
+.card-body{
+    @extend .card;
+    text-align: center;
+
+}

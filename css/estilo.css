@@ -38,6 +38,151 @@
 .m-10 {
   margin: 100px; }
 
+.mt-1 {
+  margin-top: 10px; }
+
+.mt-2 {
+  margin-top: 20px; }
+
+.mt-3 {
+  margin-top: 30px; }
+
+.mt-4 {
+  margin-top: 40px; }
+
+.mt-5 {
+  margin-top: 50px; }
+
+.mt-6 {
+  margin-top: 60px; }
+
+.mt-7 {
+  margin-top: 70px; }
+
+.mt-8 {
+  margin-top: 80px; }
+
+.mt-9 {
+  margin-top: 90px; }
+
+.mt-10 {
+  margin-top: 100px; }
+
+.mr-1 {
+  margin-top: 10px; }
+
+.mr-2 {
+  margin-top: 20px; }
+
+.mr-3 {
+  margin-top: 30px; }
+
+.mr-4 {
+  margin-top: 40px; }
+
+.mr-5 {
+  margin-top: 50px; }
+
+.mr-6 {
+  margin-top: 60px; }
+
+.mr-7 {
+  margin-top: 70px; }
+
+.mr-8 {
+  margin-top: 80px; }
+
+.mr-9 {
+  margin-top: 90px; }
+
+.mr-10 {
+  margin-top: 100px; }
+
+.mb-1 {
+  margin-top: 10px; }
+
+.mb-2 {
+  margin-top: 20px; }
+
+.mb-3 {
+  margin-top: 30px; }
+
+.mb-4 {
+  margin-top: 40px; }
+
+.mb-5 {
+  margin-top: 50px; }
+
+.mb-6 {
+  margin-top: 60px; }
+
+.mb-7 {
+  margin-top: 70px; }
+
+.mb-8 {
+  margin-top: 80px; }
+
+.mb-9 {
+  margin-top: 90px; }
+
+.mb-10 {
+  margin-top: 100px; }
+
+.ml-1 {
+  margin-top: 10px; }
+
+.ml-2 {
+  margin-top: 20px; }
+
+.ml-3 {
+  margin-top: 30px; }
+
+.ml-4 {
+  margin-top: 40px; }
+
+.ml-5 {
+  margin-top: 50px; }
+
+.ml-6 {
+  margin-top: 60px; }
+
+.ml-7 {
+  margin-top: 70px; }
+
+.ml-8 {
+  margin-top: 80px; }
+
+.ml-9 {
+  margin-top: 90px; }
+
+.ml-10 {
+  margin-top: 100px; }
+
+.btn--colorNegro {
+  background-color: #D9CABA; }
+
+.btn--colorNegro {
+  background-color: #414066; }
+
+.btn--colorNegro {
+  background-color: blue; }
+
+.btn--colorNegro {
+  background-color: brown; }
+
+.card, .card-text, .card-body {
+  border-radius: 40px 40px 40px 40px;
+  -webkit-border-radius: 40px 40px 40px 40px;
+  -moz-border-radius: 40px 40px 40px 40px;
+  background-color: #d9caba;
+  color: #414066; }
+
+.card-text {
+  text-align: center; }
+
+.card-body {
+  text-align: center; }
+
 .navbar .navbar-nav .nav-link:hover {
   background-color: black;
   color: #FFFFFF; }
@@ -69,12 +214,3 @@ div p {
 div label {
   font-size: 2rem;
   color: #be8e70; }
-
-.card {
-  border-radius: 40px 40px 40px 40px;
-  -webkit-border-radius: 40px 40px 40px 40px;
-  -moz-border-radius: 40px 40px 40px 40px;
-  background-color: #d9caba; }
-
-.card-text, .card-title {
-  text-align: center; }
