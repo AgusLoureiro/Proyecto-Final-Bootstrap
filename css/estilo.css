@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   body h1 {
     font-size: 3.5rem; }
   body .card-body {
@@ -158,23 +158,11 @@
 .ml-10 {
   margin-top: 100px; }
 
-.btn--colorNegro {
-  background-color: #D9CABA; }
-
-.btn--colorNegro {
-  background-color: #414066; }
-
-.btn--colorNegro {
-  background-color: blue; }
-
-.btn--colorNegro {
-  background-color: brown; }
-
 .card, .card-text, .card-body {
   border-radius: 40px 40px 40px 40px;
   -webkit-border-radius: 40px 40px 40px 40px;
   -moz-border-radius: 40px 40px 40px 40px;
-  background-color: #d9caba;
+  background-color: #D9CABA;
   color: #414066; }
 
 .card-text {
@@ -191,7 +179,7 @@ footer .text-center .text-white:hover {
   background-color: rgba(116, 103, 103, 0.603); }
 
 body {
-  background-color: #d9caba; }
+  background-color: #D9CABA; }
 
 .navbar .navbar-nav .nav-link:hover {
   background-color: black;
@@ -201,14 +189,12 @@ body {
   font-size: 3.5rem;
   text-align: center; }
 
-.pContacto {
-  font-size: 2rem; }
-
-div h3 {
+div h5 {
   font-size: 3rem;
-  color: #be8e70; }
+  color: White; }
 
 div p {
+  font-size: 16px;
   color: black; }
 
 div label {

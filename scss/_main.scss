@@ -1,10 +1,10 @@
 body{
-    background-color: $colorDeFondo;
+    background-color: $bg--TextoCards;
 }
-// header //
+//header//
 .navbar .navbar-nav .nav-link:hover{
-    background-color: $colorTitulos;
-    color: $colorBlanco;
+    background-color: $bg--Negro;
+    color: $bg--White;
 }
 
 .tittle{
@@ -13,31 +13,21 @@ body{
 }
 
 // CONTACTO //
-.pContacto {
-    font-size: 2rem;
+
+@mixin firstMixin ($fSize,$color){
+    font-size: $fSize;
+    color: $color;
 }
 div {
-    h3 {
-        font-size: 3rem;
-        color: $colorCuarto;
+    h5 {
+        @include firstMixin(3rem,White)
     }
     p {
-        color: $colorTitulos;
+        @include firstMixin(16px,black)
     }
 }
 div {
     label {
-        font-size: 2rem;
-        color: $colorCuarto;
+        @include firstMixin(2rem,#be8e70)
     }
 }
-// Galeria//
-// .card{
-//     border-radius: 40px 40px 40px 40px;
-//     -webkit-border-radius: 40px 40px 40px 40px;
-//     -moz-border-radius: 40px 40px 40px 40px;
-//     background-color: $colorDeFondo;
-// }
-// .card-text,.card-title,{
-//     text-align: center;
-// }

@@ -1,7 +1,7 @@
 // Condicionales //
 body{
     @if $vistaD == desktop{
-        @media only screen and (min-width:1024px){
+        @media only screen and (max-width:1024px){
             h1{
                 font-size: 3.5rem;
             }
@@ -46,38 +46,32 @@ body{
     }
 }
 
-// @each $fontType in Arial, Tahoma, Comic{
-//     .font-#{$fontType}{
-//         font-family: #{$fontType};
-//     }
-// }
-
 // MAPS //
 $coloresGaleria:(
-    colorTextoCards:#D9CABA,
-    colorPurpleNavy:#414066,
-    colorAzul: blue,
-    colorMarron: brown
+    bg--TextoCards:#D9CABA,
+    bg--PurpleNavy:#414066,
+    bg--Azul: blue,
+    bg--Marron: brown,
+    bg--Negro: black,
+    bg--Terciario: #b7b7bc,
+    bg--Cuarto: #be8e70,
+    bg--Quinto: #92836c,
+    bg--Danger: #dc3545,
+    bg--White: #FFFFFF
 );
 
-@each $colorNegro, $black in $coloresGaleria{
-    .btn--#{colorNegro}{
-        background-color: $black;
-
-    }
-}
-
-// extends//
+//extends y map-get//
 .card{
     border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px;
     -moz-border-radius: 40px 40px 40px 40px;
-    background-color: $colorDeFondo;
-    color:map-get($coloresGaleria,colorPurpleNavy);
+    background-color: $bg--TextoCards;
+    color:map-get($coloresGaleria,bg--PurpleNavy);
 }
 .card-text,{
     @extend .card;
     text-align:center;
+    color: map-get($coloresGaleria,bg--white)
 }
 .card-body{
     @extend .card;
