@@ -1,33 +1,37 @@
-body{
+body {
     background-color: $bg--TextoCards;
 }
+
 //header//
-.navbar .navbar-nav .nav-link:hover{
+.navbar .navbar-nav .nav-link:hover {
     background-color: $bg--Negro;
     color: $bg--White;
 }
 
-.tittle{
+.tittle {
     font-size: 3.5rem;
     text-align: center;
 }
 
 // CONTACTO //
 
-@mixin firstMixin ($fSize,$color){
+@mixin firstMixin ($fSize, $color) {
     font-size: $fSize;
     color: $color;
 }
+
 div {
     h5 {
-        @include firstMixin(3rem,White)
+        @include firstMixin(3rem, White)
     }
+
     p {
-        @include firstMixin(16px,black)
+        @include firstMixin(16px, black)
     }
 }
+
 div {
     label {
-        @include firstMixin(2rem,#be8e70)
+        @include firstMixin(2rem, #be8e70)
     }
 }

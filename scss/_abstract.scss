@@ -1,18 +1,20 @@
 // Condicionales //
-body{
-    @if $vistaD == desktop{
-        @media only screen and (max-width:1024px){
-            h1{
+body {
+    @if $vistaD ==desktop {
+        @media only screen and (max-width:1024px) {
+            h1 {
                 font-size: 3.5rem;
             }
-            .card-body{
+
+            .card-body {
                 font-size: 1.5rem;
             }
         }
     }
-    @if $vista == mobile {
-        @media only screen and (max-width: 768px){
-            h1{
+
+    @if $vista ==mobile {
+        @media only screen and (max-width: 768px) {
+            h1 {
                 font-size: 2.5rem;
             }
         }
@@ -20,34 +22,38 @@ body{
 }
 
 // BUCLES//
-@for $margen from 1 through 10{
-    .m-#{$margen}{
-        margin:10px * $margen; 
+@for $margen from 1 through 10 {
+    .m-#{$margen} {
+        margin: 10px * $margen;
     }
 }
-@for $margen from 1 through 10{
-    .mt-#{$margen}{
-        margin-top:10px * $margen; 
+
+@for $margen from 1 through 10 {
+    .mt-#{$margen} {
+        margin-top: 10px * $margen;
     }
 }
-@for $margen from 1 through 10{
-    .mr-#{$margen}{
-        margin-top:10px * $margen; 
+
+@for $margen from 1 through 10 {
+    .mr-#{$margen} {
+        margin-top: 10px * $margen;
     }
 }
-@for $margen from 1 through 10{
-    .mb-#{$margen}{
-        margin-top:10px * $margen; 
+
+@for $margen from 1 through 10 {
+    .mb-#{$margen} {
+        margin-top: 10px * $margen;
     }
 }
-@for $margen from 1 through 10{
-    .ml-#{$margen}{
-        margin-top:10px * $margen; 
+
+@for $margen from 1 through 10 {
+    .ml-#{$margen} {
+        margin-top: 10px * $margen;
     }
 }
 
 // MAPS //
-$coloresGaleria:(
+$coloresGaleria: (
     bg--TextoCards:#D9CABA,
     bg--PurpleNavy:#414066,
     bg--Azul: blue,
@@ -61,19 +67,22 @@ $coloresGaleria:(
 );
 
 //extends y map-get//
-.card{
+.card {
     border-radius: 40px 40px 40px 40px;
     -webkit-border-radius: 40px 40px 40px 40px;
     -moz-border-radius: 40px 40px 40px 40px;
     background-color: $bg--TextoCards;
-    color:map-get($coloresGaleria,bg--PurpleNavy);
+    color: map-get($coloresGaleria, bg--PurpleNavy);
 }
-.card-text,{
-    @extend .card;
-    text-align:center;
-    color: map-get($coloresGaleria,bg--white)
+
+.card-text,
+{
+@extend .card;
+text-align: center;
+color: map-get($coloresGaleria, bg--white)
 }
-.card-body{
+
+.card-body {
     @extend .card;
     text-align: center;
 
