@@ -1,25 +1,3 @@
-// Condicionales //
-body {
-    @if $vistaD ==desktop {
-        @media only screen and (max-width:1024px) {
-            h1 {
-                font-size: 3.5rem;
-            }
-
-            .card-body {
-                font-size: 1.5rem;
-            }
-        }
-    }
-
-    @if $vista ==mobile {
-        @media only screen and (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-        }
-    }
-}
 
 // BUCLES//
 @for $margen from 1 through 10 {
@@ -36,21 +14,55 @@ body {
 
 @for $margen from 1 through 10 {
     .mr-#{$margen} {
-        margin-top: 10px * $margen;
+        margin-right: 10px * $margen;
     }
 }
 
 @for $margen from 1 through 10 {
     .mb-#{$margen} {
-        margin-top: 10px * $margen;
+        margin-bottom: 10px * $margen;
     }
 }
 
 @for $margen from 1 through 10 {
     .ml-#{$margen} {
-        margin-top: 10px * $margen;
+        margin-left: 10px * $margen;
     }
 }
+
+@for $margen from 1 through 5{
+    .mx-#{$margen}{
+        margin-left: 10px * $margen;
+        margin-right: 10px *$margen;
+    }
+}
+
+// @media only screen and (max-width: 1024px){
+//     @for $margen from 1 through 10 {
+//         .m-#{$margen}{
+//             margin: 2px * $margen;           
+//         }
+//     }
+
+//     @for $margen from 1 through 10 {
+//         .mt-#{$margen}{
+//             margin-top: 2px * $margen;           
+//         }
+//     }
+
+//     @for $margen from 1 through 10 {
+//         .ml-#{$margen}{
+//             margin-left: 2px * $margen;           
+//         }
+//     }
+
+//     @for $margen from 1 through 5{
+//         .mx-#{$margen}{
+//             margin-left: 2px * $margen;
+//             margin-right: 2px * $margen;
+//         }
+//     }
+// }
 
 // MAPS //
 $coloresGaleria: (
@@ -75,11 +87,10 @@ $coloresGaleria: (
     color: map-get($coloresGaleria, bg--PurpleNavy);
 }
 
-.card-text,
-{
+.card-text{
 @extend .card;
 text-align: center;
-color: map-get($coloresGaleria, bg--white)
+color: map-get($coloresGaleria, $bg--White)
 }
 
 .card-body {

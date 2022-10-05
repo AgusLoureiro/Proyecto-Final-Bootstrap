@@ -11,3 +11,5 @@ fui creando algunas clases con bucles, para ahorrar tiempo a la hora de dar marg
 fui creando algunas clases con bucles, para ahorrar tiempo a la hora de dar margenes
 cambié el nombre de las variables declaradas para que no sean todas color-black color-white etc..
 >>>>>>> b047a3945e5fd3a584de351d23ff678c42dd8876
+
+

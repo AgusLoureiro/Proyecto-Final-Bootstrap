@@ -10,10 +10,15 @@ body {
 
 .tittle {
     font-size: 3.5rem;
-    text-align: center;
+    text-align: left;
 }
 
 // CONTACTO //
+
+.bgImagen{
+        background-image: url(../assets/mtfuji4.jpg);
+        background-repeat: none;
+}
 
 @mixin firstMixin ($fSize, $color) {
     font-size: $fSize;
@@ -22,16 +27,111 @@ body {
 
 div {
     h5 {
-        @include firstMixin(3rem, White)
-    }
-
-    p {
-        @include firstMixin(16px, black)
+        @include firstMixin(3rem, $bg--White)
+    }p {
+        @include firstMixin(16px, $bg--White)
     }
 }
 
 div {
     label {
-        @include firstMixin(2rem, #be8e70)
+        @include firstMixin(2rem, $bg--White)
     }
+}
+
+// galeria//
+
+.tittleG{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+// sobrenosotros//
+
+.flexN{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .parrafN{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $bg--Grafito;
+        .linkN{
+            text-decoration: none;
+            color: $bg--Cuarto;
+        }
+        .linkN:hover{
+            color: $bg--Negro;
+            background-color: $bg--White;
+        }
+    }
+}
+
+.flexNosotros{
+    display: flex;
+    flex-direction: row-reverse;
+    // justify-content: ;
+    align-items: center;
+    .parrafoN{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $bg--Grafito;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .flexN{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img{
+            max-height: 350px;
+            max-width: 350px;
+        }
+    }
+    .flexNosotros{
+        display: flex;
+        flex-direction: column;
+        
+        img{
+            max-height: 500px;
+            max-width: 350px;
+        }
+    }
+    
+}
+
+// ubicacion//
+.titleUbi{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+// logo//
+
+.gridNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+// index//
+.centerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+// pagina externa//
+.pagExterna{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre{
+    min-height: 100vh;
 }
