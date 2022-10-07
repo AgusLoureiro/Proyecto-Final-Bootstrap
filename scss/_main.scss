@@ -15,9 +15,9 @@ body {
 
 // CONTACTO //
 
-.bgImagen{
-        background-image: url(../assets/mtfuji4.jpg);
-        background-repeat: none;
+.bgImagen {
+    background-image: url(../assets/mtfuji4.jpg);
+    background-repeat: none;
 }
 
 @mixin firstMixin ($fSize, $color) {
@@ -28,7 +28,9 @@ body {
 div {
     h5 {
         @include firstMixin(3rem, $bg--White)
-    }p {
+    }
+
+    p {
         @include firstMixin(16px, $bg--White)
     }
 }
@@ -41,84 +43,89 @@ div {
 
 // galeria//
 
-.tittleG{
+.tittleG {
     text-align: center;
     font-size: 3.5rem;
 }
 
 // sobrenosotros//
 
-.flexN{
+.flexN {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    .parrafN{
+
+    .parrafN {
         text-align: center;
         font-size: 1.5rem;
         color: $bg--Grafito;
-        .linkN{
+
+        .linkN {
             text-decoration: none;
             color: $bg--Cuarto;
         }
-        .linkN:hover{
+
+        .linkN:hover {
             color: $bg--Negro;
             background-color: $bg--White;
         }
     }
 }
 
-.flexNosotros{
+.flexNosotros {
     display: flex;
     flex-direction: row-reverse;
     // justify-content: ;
     align-items: center;
-    .parrafoN{
+
+    .parrafoN {
         text-align: center;
         font-size: 1.5rem;
         color: $bg--Grafito;
     }
 }
 
-@media screen and (max-width: 768px){
-    .flexN{
+@media screen and (max-width: 768px) {
+    .flexN {
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        img{
+        img {
             max-height: 350px;
             max-width: 350px;
         }
     }
-    .flexNosotros{
+
+    .flexNosotros {
         display: flex;
         flex-direction: column;
-        
-        img{
+
+        img {
             max-height: 500px;
             max-width: 350px;
         }
     }
-    
+
 }
 
 // ubicacion//
-.titleUbi{
+.titleUbi {
     font-size: 3.5rem;
     text-align: center;
 }
 
 // logo//
 
-.gridNav{
+.gridNav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 // index//
-.centerNav{
+.centerNav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,12 +133,12 @@ div {
 }
 
 // pagina externa//
-.pagExterna{
+.pagExterna {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.padre{
+.padre {
     min-height: 100vh;
 }

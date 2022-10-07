@@ -1,4 +1,3 @@
-
 // BUCLES//
 @for $margen from 1 through 10 {
     .m-#{$margen} {
@@ -30,8 +29,8 @@
     }
 }
 
-@for $margen from 1 through 5{
-    .mx-#{$margen}{
+@for $margen from 1 through 5 {
+    .mx-#{$margen} {
         margin-left: 10px * $margen;
         margin-right: 10px *$margen;
     }
@@ -87,10 +86,10 @@ $coloresGaleria: (
     color: map-get($coloresGaleria, bg--PurpleNavy);
 }
 
-.card-text{
-@extend .card;
-text-align: center;
-color: map-get($coloresGaleria, $bg--White)
+.card-text {
+    @extend .card;
+    text-align: center;
+    color: map-get($coloresGaleria, $bg--White)
 }
 
 .card-body {
